@@ -351,5 +351,57 @@ footer {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+    
   
+  /* Responsif untuk tablet */
+@media (max-width: 992px) {
+    header .container ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .box, .col-4 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    img {
+      width: 90%;
+      height: auto;
+    }
+  
+    iframe {
+      width: 100%;
+    }
+}
+  
+  /* Responsif untuk mobile */
+@media (max-width: 768px) {
+    header .container h1, .box {
+      text-align: center;
+    }
+  
+    .box {
+      padding: 10px;
+    }
+  
+    header .container ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
   
